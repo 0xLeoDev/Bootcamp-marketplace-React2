@@ -1,6 +1,6 @@
 import "./Product.css";
 import Card from "./Card.js";
-import WBCC from "../wbcc.png";
+import WBCC from "../wbcc.jpeg";
 
 function Product(props) {
 
@@ -8,12 +8,11 @@ function Product(props) {
         <div>
             <main>
                 <section className="cards">
-
-                    <Card name="test" imageURL={WBCC} description="asdf adsf asdf asdf safd asfd asfd" />
-
-                    <Card name="Item2" imageURL={WBCC} description="asdf adsf asdf asdf safd asfd asfd" />
-
+                    <Card name="Kitty" imageURL={WBCC} description="Just a cute kitty.  " />
+                    <Card name="Doggie" imageURL={WBCC} description="Just a cute doggy.  " />
                 </section>
+
+
 
             </main>
 
